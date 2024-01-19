@@ -1,4 +1,4 @@
-# DQN
+# Rainbow DQN without Distributional RL
 
 ## Using N-Step Prioritized Experience Replay, double Q-Learning and Dueling Network Architecture
 
@@ -35,3 +35,4 @@ The authors of the Prioritized Experience Replay paper proposed a new data struc
 3. [Dueling Network Architectures for Deep Reinforcement Learning](https://arxiv.org/pdf/1511.06581.pdf)
 4. [Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf)
 5. [Noisy Networks for Exploration](https://arxiv.org/pdf/1706.10295.pdf)
+6. [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://arxiv.org/pdf/1710.02298.pdf)
