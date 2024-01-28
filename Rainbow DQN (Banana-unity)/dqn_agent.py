@@ -15,6 +15,8 @@ TAU = 1e-3              # for soft update of target parameters
 LR = 5e-4               # learning rate 
 UPDATE_EVERY = 4        # how often to update the network
 NSTEP = 3               # number of steps for N-step DQN
+ALPHA = 0.6             # PER hyperparameter
+BETA = 0.4              # PER hyperparameter
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -67,8 +69,8 @@ class Agent():
         self.memory = ReplayBuffer(
             buffer_size=buffer_size,
             batch_size=batch_size,
-            alpha=0.6,
-            beta=0.4,
+            alpha=ALPHA,
+            beta=BETA,
             n_step=self.n_step,
             gamma=self.gamma
         )
