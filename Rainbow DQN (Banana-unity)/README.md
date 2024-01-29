@@ -18,14 +18,19 @@ This repository contains a Jupyter Notebook for the Udacity Nanodegree project. 
 5. `conda activate drlnd`
 6. Install the required packages:
 7. `pip install -r requirements.txt`
-8. be aware that you need the unityagents package from the Udacity repository: 
+8. Download the unity environment from the Udacity repository:
+   1. Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip
+   2. Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip
+   3. Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip
+   4. Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
+9. be aware that you need the unityagents package from the Udacity repository: 
    1. git+https://github.com/Udacity/unityagents.git
-9.  Create an IPython kernel for the drlnd environment:
-10. `python -m ipykernel install --user --name drlnd --display-name "drlnd"`
-11. Run Jupyter Notebook
-12. `jupyter notebook`
-13. Open the notebook `Navigation.ipynb` and change the kernel to `drlnd`
-14. Follow the instructions in the notebook to train the agent
+10. Create an IPython kernel for the drlnd environment:
+11. `python -m ipykernel install --user --name drlnd --display-name "drlnd"`
+12. Run Jupyter Notebook
+13. `jupyter notebook`
+14. Open the notebook `Navigation.ipynb` and change the kernel to `drlnd`
+15. Follow the instructions in the notebook to train the agent
 
 ## model weights from training
 the model weights can be found in the file `checkpoint.pth`
