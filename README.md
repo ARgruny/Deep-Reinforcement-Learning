@@ -14,7 +14,7 @@
     - [x] Rainbow DQN (Dueling DDQN with PER and N-step and Noisy Nets) for LunarLander-v2
     - [x] Rainbow DQN (Dueling DDQN with PER and N-step and Noisy Nets) for Unity Banana Collector
     - [x] REINFORCE for CartPole-v0
-    - [ ] Proximal Policy Optimization (PPO) for LunarLander-v2
+    - [x] Proximal Policy Optimization (PPO) for LunarLander-v2
     - [ ] Proximal Policy Optimization (PPO) for Unity Crawler
     - [ ] Deep Deterministic Policy Gradient (DDPG) for LunarLander-v2
     - [ ] Deep Deterministic Policy Gradient (DDPG) for BipedalWalker-v2
@@ -28,3 +28,23 @@
     - [ ] T3D for Unity Reacher
     - [ ] A2C for Unity Reacher
     - [ ] A3C for Unity Reacher
+
+
+## papers to the implemented algorithms
+- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
+- [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236)
+- [Dueling Network Architectures for Deep Reinforcement Learning](https://arxiv.org/abs/1511.06581)
+- [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)
+- [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://arxiv.org/abs/1710.02298)
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
+- [Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://arxiv.org/abs/1801.01290)
+- [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
+- [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://arxiv.org/abs/1706.02275)
+- [Qmix: Monotonic value function factorisation for deep multi-agent reinforcement learning](https://arxiv.org/abs/1803.11485)
+- [Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm](https://arxiv.org/abs/1712.01815)
+- [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/abs/1802.09477)
+- [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
+- [Distributed Prioritized Experience Replay](https://arxiv.org/abs/1803.00933)
+- [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
+- [Continuous Deep Q-Learning with Model-based Acceleration](https://arxiv.org/abs/1603.00748)
+- [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
