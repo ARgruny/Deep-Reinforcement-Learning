@@ -17,8 +17,8 @@ The Soft Actor-Critic (SAC) algorithm is an off-policy actor-critic algorithm. I
 This version of the SAC algorithm is implemented in a way that allows for gathering experiences and then looping through the experiences multiple times to update the networks. This is done to improve the sample efficiency of the algorithm. It also uses polyak averaging to update the target networks. This is done to stabilize the learning process.
 
 The Network architecture used in this implementation is as follows:
-- Actor: The actor network consists of an input layer, one hidden layer with 256 units and a ReLU activation function and two output layers, one for the mean and one for the log standard deviation of the action distribution. The forward method calculates the action and the log probability of the action using the mean and log standard deviation.
-- Critic: The critic networks both consists of an input layer, one hidden layer with 256 units and a ReLU activation function and an output layer with one unit. The forward method calculates the Q-value of the state-action pair.
+- Actor: The actor network consists of an input layer, tw0 hidden layer with 256 and 128 units and a ReLU activation function and two output layers, one for the mean and one for the log standard deviation of the action distribution. The forward method calculates the action and the log probability of the action using the mean and log standard deviation.
+- Critic: The critic networks both consists of an input layer, two hidden layer with 256 and 128 units and a ReLU activation function and an output layer with one unit. The forward method calculates the Q-value of the state-action pair.
 - Target networks: the target network for the actor and the critics are created using the same architecture as the original networks. The target networks are updated using polyak averaging.
 
 The algorithm uses the following hyperparameters:
@@ -55,3 +55,19 @@ The update frequency is the number of steps the agent takes before updating the 
 The agent was able to solve the environment in 507 episodes. The average score over 100 episodes was +30.07. The plot below shows the scores of the agent over the episodes and the running average of the scores.
 
 ![Scores](output.png)
+
+## Future Improvements
+The implementation of the SAC algorithm can be improved in several ways: 
+- The hyperparameters can be tuned to improve the performance of the agent. 
+- The network architecture can be modified to improve the learning process.
+- The algorithm can be modified to use parallel environments to improve the sample efficiency.
+- We can also use a distributed version of the algorithm to improve the learning process.
+- The algorithm can be modified to use a prioritized experience replay buffer to improve the learning process.
+- The algorithm can also be modified to use a more sophisticated exploration strategy to improve the learning process.
+
+In fact, experiments with the 20-agent version of the environment showed that a parrallelized version DDPG only took 105 episodes to solve the environment. Although the wall-clock time was much higher without a GPU, the sample efficiency was better. This suggests that the SAC algorithm can be improved by using parallel environments.
+
+![DDPG with 20 Agents](ddpg_20.png)
+
+## Conclusion
+The Soft Actor-Critic (SAC) algorithm was able to solve the Reacher environment in 507 episodes. The agent was able to achieve an average score of +30.07 over 100 episodes. The implementation of the algorithm can be improved in several ways to achieve better performance. The algorithm is known for its sample efficiency and stability and is a good choice for solving continuous control problems. The algorithm can be used to solve other continuous control problems and can be modified to improve its performance.
