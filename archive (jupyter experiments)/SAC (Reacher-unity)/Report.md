@@ -54,6 +54,7 @@ The update frequency is the number of steps the agent takes before updating the 
 ## Results
 The agent was able to solve the environment in 507 episodes. The average score over 100 episodes was +30.07. The plot below shows the scores of the agent over the episodes and the running average of the scores.
 
+### Scores for the SAC algorithm
 ![Scores](output.png)
 
 ## Future Improvements
@@ -67,6 +68,7 @@ The implementation of the SAC algorithm can be improved in several ways:
 
 In fact, experiments with the 20-agent version of the environment showed that a parrallelized version DDPG only took 105 episodes to solve the environment. Although the wall-clock time was much higher without a GPU, the sample efficiency was better. This suggests that the SAC algorithm can be improved by using parallel environments.
 
+### Scores for the DDPG algorithm with 20 agents
 ![DDPG with 20 Agents](ddpg_20.png)
 
 ## Conclusion
