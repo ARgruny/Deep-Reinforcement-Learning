@@ -15,19 +15,15 @@
     - [x] Rainbow DQN (Dueling DDQN with PER and N-step and Noisy Nets) for Unity Banana Collector
     - [x] REINFORCE for CartPole-v0
     - [x] Proximal Policy Optimization (PPO) for LunarLander-v2
-    - [ ] Proximal Policy Optimization (PPO) for Unity Crawler
-    - [ ] Deep Deterministic Policy Gradient (DDPG) for LunarLander-v2
-    - [ ] Deep Deterministic Policy Gradient (DDPG) for BipedalWalker-v2
+    - [ ] Proximal Policy Optimization (PPO) for Unity Crawler (Multi-Agent)
+    - [x] Deep Deterministic Policy Gradient (DDPG) for Unity Reacher (Multi-Agent)
     - [x] Soft Actor-Critic (SAC) for Continuous LunarLander-v2
-    - [x] Soft Actor-Critic (SAC) for Unity Reacher
+    - [x] Soft Actor-Critic (SAC) for Unity Reacher (Single-Agent)
     - [ ] AlphaZero for TicTacToe
     - [ ] Multi-Agent Deep Deterministic Policy Gradient (MADDPG) for Unity Tennis
     - [ ] Multi-Agent Proximal Policy Optimization (MAPPO) for Unity Soccer
     - [ ] QMIX for Overcooked Environment
     - [ ] MuZero for TicTacToe
-    - [ ] T3D for Unity Reacher
-    - [ ] A2C for Unity Reacher
-    - [ ] A3C for Unity Reacher
 
 
 ## papers to the implemented algorithms
