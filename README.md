@@ -23,7 +23,7 @@
     - [x] Multi-Agent Deep Deterministic Policy Gradient (MADDPG) for Unity Tennis
     - [ ] Multi-Agent Proximal Policy Optimization (MAPPO) for Unity Soccer
     - [ ] QMIX for Overcooked Environment
-    - [ ] MuZero for TicTacToe
+    - [ ] MuZero for Connect4
 
 
 ## papers to the implemented algorithms
