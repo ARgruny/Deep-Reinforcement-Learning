@@ -19,7 +19,7 @@
     - [x] Deep Deterministic Policy Gradient (DDPG) for Unity Reacher (Multi-Agent)
     - [x] Soft Actor-Critic (SAC) for Continuous LunarLander-v2
     - [x] Soft Actor-Critic (SAC) for Unity Reacher (Single-Agent)
-    - [ ] AlphaZero for Connect4
+    - [x] AlphaZero for Connect4 (3x3, N=3)
     - [x] Multi-Agent Deep Deterministic Policy Gradient (MADDPG) for Unity Tennis
     - [ ] Multi-Agent Proximal Policy Optimization (MAPPO) for Unity Soccer
     - [ ] QMIX for Overcooked Environment
